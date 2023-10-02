@@ -25,7 +25,7 @@
 <p>List of scaled footprints :</p>
 <p>List of protein structure features seperated with ",":</p>
 
-<h1>Deep learning mode VeloGRU and VeloBERT for translation velocity prediction</h1>
+<h1>Deep learning model: VeloGRU and VeloBERT for translation velocity prediction</h1>
 <h2>1. VeloGRU based on gate recurrent unit (GRU)</h2>
 
 
