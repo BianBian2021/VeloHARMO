@@ -9,7 +9,7 @@
 <p><strong>Requirement:</strong></p>
 <p>This pipeline was tested on ABCI supercomputer at AIST. The following are requirements:</p>
 
-      Install via bioconda: <code>conda install -c bioconda gffread</code>
+<code>python 3.10<br>cuda 10.2</code>
 
 <h1>Data preparation for model training</h1>
 
