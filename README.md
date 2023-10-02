@@ -9,16 +9,9 @@
 <p><strong>Requirement:</strong></p>
 <p>This pipeline was tested on ABCI supercomputer at AIST. The following are requirements:</p>
 
-<style>
-    .code {
-        white-space: pre-line;
-    }
-</style>
+<pre><code>python 3.10
+cuda 10.2</code></pre>
 
-<div class="code">
-    python 3.10
-    cuda 10.2
-</div>
 
 
 <h1>Data preparation for model training</h1>
