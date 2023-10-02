@@ -30,9 +30,11 @@ transformers 4.33.2</code></pre>
 <pre><code>gffread yeast.genomic.gff -g yeast.genomic.fa -w yeast.transcriptome.fa</code></pre>
 
 <h2>2. VeloBERT based on Bidirectional Encoder Representations from Transformers (BERT)</h2>
-<p>3-new-12w-0 consist pretrained DNABERT was downloaded from https://github.com/jerryji1993/DNABERT#32-download-pre-trained-dnabert </p>
+<p>2.1 The 3-new-12w-0 directory consist pretrained DNABERT was downloaded from the following link:
+  
+<p> https://github.com/jerryji1993/DNABERT#32-download-pre-trained-dnabert </p>
 
-<p>The VeloGRU model can be trained and cross-validated with the following command:</p>
+<p>2.2 The VeloGRU model can be trained and cross-validated with the following command:</p>
 <pre><code>python train.py --do_train --do_eval --aa --ss --batch_size 8 --max_seq_length 512 --data_dir /Your/work/path/dataset --model_name_or_path /Your/work/path/3-new-12w-0 --output_dir ./save/outputs --num_train_epoch 200 </code></pre>
 
 
