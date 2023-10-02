@@ -17,3 +17,6 @@
     </ul>
   </li>
 
+<h1>Data preparation for model training</h1>
+
+<p>Gene name or notation start with ">":</p>
