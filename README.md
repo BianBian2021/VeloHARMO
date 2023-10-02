@@ -27,7 +27,7 @@ transformers 4.33.2</code></pre>
 <h1>Deep learning modelling: VeloGRU and VeloBERT for translation velocity prediction</h1>
 <h2>1. VeloGRU based on Gate Recurrent Unit (GRU)</h2>
 <p>The VeloGRU model can be trained and cross-validated with the following command:</p>
-<pre><code>python3 run.py cross_test E.coli.summary.add.pro.SS.txt 10 --nt --aa --ss </code></pre>
+<pre><code>python run.py cross_test E.coli.summary.add.pro.SS.txt 10 --nt --aa --ss </code></pre>
 
 <h2>2. VeloBERT based on Bidirectional Encoder Representations from Transformers (BERT)</h2>
 <p>2.1 The 3-new-12w-0 directory consist pretrained DNABERT (Ji et al., 2021) was downloaded from the following link:
