@@ -37,6 +37,11 @@ transformers 4.33.2</code></pre>
 <p>2.2 The VeloBERT model can be trained and cross-validated with the following command:</p>
 <pre><code>python train.py --do_train --do_eval --aa --ss --batch_size 8 --max_seq_length 512 --data_dir /Your/work/path/dataset --model_name_or_path /Your/work/path/3-new-12w-0 --output_dir ./save/outputs --num_train_epoch 200 </code></pre>
 
+<h1>Genetic algorithm for mRNA sequence design and optimization</h1>
+
+<pre><code> python ga_velocity_pattern.add.time.pearson.ss.py </code></pre>
+
+
 
 
 
