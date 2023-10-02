@@ -16,7 +16,7 @@
       <li>Install via bioconda: <code>conda install -c bioconda gffread</code></li>
     </ul>
   </li>
-</ul>ul>
+</ul>
   
 <h1>Data preparation for model training</h1>
 
