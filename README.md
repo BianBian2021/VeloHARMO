@@ -19,10 +19,10 @@ transformers 4.33.2</code></pre>
 
 <h1>Data preparation for model training</h1>
 
-<p>Gene name and gene length notation start with ">":</p>
-<p>List of codons seperated with tab:</p>
-<p>List of scaled footprints :</p>
-<p>List of protein structure features seperated with ",":</p>
+<p>Gene name and gene length notation start with ">";</p>
+<p>List of codons seperated with tab;</p>
+<p>List of scaled footprints;</p>
+<p>List of protein structure features seperated with ",".</p>
 
 <h1>Deep learning modelling: VeloGRU and VeloBERT for translation velocity prediction</h1>
 <h2>1. VeloGRU based on Gate Recurrent Unit (GRU)</h2>
