@@ -22,7 +22,7 @@
 
 <p>Gene name and gene length notation start with ">":</p>
 <p>List of codons seperated with tab:</p>
-<p>List of scaled footprints ">":</p>
+<p>List of scaled footprints :</p>
 <p>List of protein structure features seperated with ",":</p>
 
 
