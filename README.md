@@ -1,5 +1,5 @@
 # VeloHARMO
-## VeloHARMO is a pipeline for mRNA design and optimization by translation velocity harmonization from native organism to host organism. VeloHARMO consists of two crucial components: 1.Deep learning modelling for translation velocity prediction in both native and host organisms. 2.Genetic algorithm to generate the harmonized mRNA sequences from native organism to host organism.
+## VeloHARMO is a pipeline for mRNA design and optimization by translation velocity harmonization from native organism to host organism. VeloHARMO consists of two crucial components: 1.Deep learning modelling for translation velocity prediction in both native and host organisms; 2.Genetic algorithm to generate the harmonized mRNA sequences from native organism to host organism.
 
 <h1>Introduction</h1>
 
