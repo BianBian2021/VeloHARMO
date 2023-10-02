@@ -25,7 +25,13 @@ transformers 4.33.2</code></pre>
 <p>List of protein structure features seperated with ",":</p>
 
 <h1>Deep learning model: VeloGRU and VeloBERT for translation velocity prediction</h1>
-<h2>1. VeloGRU based on gate recurrent unit (GRU)</h2>
+<h2>1. VeloGRU based on Gate Recurrent Unit (GRU)</h2>
+<p>The VeloGRU model can be trained and cross-validated with the following command:</p>
+<pre><code>gffread yeast.genomic.gff -g yeast.genomic.fa -w yeast.transcriptome.fa</code></pre>
+
+<h2>2. VeloBERT based on Bidirectional Encoder Representations from Transformers (BERT)</h2>
+<p>The VeloGRU model can be trained and cross-validated with the following command:</p>
+<pre><code>python train.py --do_train --do_eval --aa --ss --batch_size 8 --max_seq_length 512 --data_dir /home/acd13855wx/work/models/VeloBERT_10fold_E.coli_nt_aa_ss/dataset --model_name_or_path /home/acd13855wx/work/models/VeloBERT_10fold_E.coli_nt_aa_ss/3-new-12w-0 --output_dir ./save/outputs --num_train_epoch 200 </code></pre>
 
 
 
