@@ -10,7 +10,10 @@
 <p>This pipeline was tested on ABCI supercomputer at AIST. The following are requirements:</p>
 
 <pre><code>python 3.10
-cuda 10.2</code></pre>
+cuda 10.2
+torch 2.0.1
+sklearn 1.2.2
+transformers 4.33.2</code></pre>
 
 
 
