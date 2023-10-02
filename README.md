@@ -7,9 +7,9 @@
 
 <h1>Software and Installation</h1>
 <p><strong>Requirement:</strong></p>
-<p>This pipeline was tested on ABCI supercomputer at AIST. For most of the tools, we installed via conda or bioconda, and the following software is required:</p>
+<p>This pipeline was tested on ABCI supercomputer at AIST. The following are requirements:</p>
 
-      <li>Install via bioconda: <code>conda install -c bioconda gffread</code></li>
+      Install via bioconda: <code>conda install -c bioconda gffread</code>
 
 <h1>Data preparation for model training</h1>
 
