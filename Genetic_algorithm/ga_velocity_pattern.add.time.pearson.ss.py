@@ -61,7 +61,7 @@ onehot_nt = {nts[i]: np.eye(4)[i] for i in range(len(nts))}
 onehot_aa = {aa_table[i, 2]: np.eye(21)[i] for i in range(len(aa_table))}
 
 
-datafile,index="/home/acd13855wx/work/models/GA_algorithm_add_ss/E.coli.summary.add.pro.SS.txt",0
+datafile,index="/Your/work/path/E.coli.summary.add.pro.SS.txt",0
 data_X, data_Y, valid_len = load_data(datafile)
 
 list_seq = []
@@ -109,7 +109,7 @@ target_sequence = "".join(aas)
 # load the E.coli model
 device = torch.device('cpu')
 
-velo_model1 = torch.load('/home/acd13855wx/work/models/GA_algorithm_add_ss/E.coli.fold_0_best_network.pth',map_location=device)
+velo_model1 = torch.load('/Your/work/path/E.coli.fold_0_best_network.pth',map_location=device)
 
 #codons = list_seq[0]
 seqs="".join(codons)
@@ -121,7 +121,7 @@ label_i = velo_model1(features, torch.tensor([[features.shape[1]]]))
 #print(label_i)
 
 #load yeast model
-velo_model = torch.load('/home/acd13855wx/work/models/GA_algorithm_add_ss/yeast.fold_0_best_network.pth',map_location=device)
+velo_model = torch.load('/Your/work/path/yeast.fold_0_best_network.pth',map_location=device)
 def generate_random_rna_sequence():
     # generate a random RNA seq
     # return ''.join(random.choices('UCAG', k=len(target_sequence)))
