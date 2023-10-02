@@ -20,4 +20,17 @@
   
 <h1>Data preparation for model training</h1>
 
-<p>Gene name or notation start with ">":</p>
+<p>Gene name and gene length notation start with ">":</p>
+<p>List of codons seperated with tab:</p>
+<p>List of scaled footprints ">":</p>
+<p>List of protein structure features seperated with ",":</p>
+
+
+
+
+
+
+
+
+
+
