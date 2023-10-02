@@ -9,6 +9,7 @@
 <p><strong>Required Software:</strong></p>
 <p>This pipeline was tested on ABCI supercomputer at AIST. For most of the tools, we installed via conda or bioconda, and the following software is required:</p>
 
+<ul>
   </li>
   <li>gffread
     <ul>
