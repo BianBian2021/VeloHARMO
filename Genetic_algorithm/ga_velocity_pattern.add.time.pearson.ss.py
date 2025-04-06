@@ -227,7 +227,8 @@ def genetic_algorithm():
 
 
 best_rna_sequence, start_seq, end_seq = genetic_algorithm()
-print("Harmonized mRNA sequence:", best_rna_sequence)
+print("Harmonized codon sequence:", best_rna_sequence)
+print("Final harmonized mRNA sequence:", best_rna_sequence.replace('T', 'U'))
 #print("initial_velo_pattern:",)
 print("Corresponding protein sequence:", translate_rna_to_protein(best_rna_sequence))
 
